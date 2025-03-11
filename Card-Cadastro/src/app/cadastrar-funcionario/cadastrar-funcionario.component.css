@@ -1,0 +1,11 @@
+mat-toolbar{
+    background-color: blue;
+}
+
+.buttonblue{
+    background-color: blue !important;
+}
+
+.buttonred{
+    background-color: red !important;
+}
