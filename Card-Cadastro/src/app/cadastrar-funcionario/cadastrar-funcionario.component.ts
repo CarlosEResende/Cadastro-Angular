@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-cadastrar-funcionario',
   standalone: false,
   templateUrl: './cadastrar-funcionario.component.html',
-  styleUrl: './cadastrar-funcionario.component.css'
+  styleUrl: './cadastrar-funcionario.component.css',
+  
 })
 export class CadastrarFuncionarioComponent {
 

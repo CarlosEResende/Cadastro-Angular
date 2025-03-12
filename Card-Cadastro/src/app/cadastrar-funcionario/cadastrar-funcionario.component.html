@@ -16,10 +16,21 @@
             <mat-label>Cargo</mat-label>
             <input matInput type="text">
           </mat-form-field>
+
+          <mat-form-field class="full-width">
+            <mat-label>Departamento</mat-label>
+            <mat-select>
+              <mat-option value="rh">Recursos Humanos</mat-option>
+              <mat-option value="logística">Logística</mat-option>
+              <mat-option value="financeiro">Financeiro</mat-option>
+              <mat-option value="administrativo">Administrativo</mat-option>
+              <mat-option value="marketing">Marketing</mat-option>
+            </mat-select>
+          </mat-form-field>
   
           <div class="buttons">
             <button class="buttonblue" mat-raised-button color="primary">Salvar</button>
-            <button class="buttonred"mat-raised-button color="warn" routerLink="/">Cancelar</button>
+            <button class="buttonred"mat-raised-button color="warn">Cancelar</button>
           </div>
         </form>
       </mat-card-content>

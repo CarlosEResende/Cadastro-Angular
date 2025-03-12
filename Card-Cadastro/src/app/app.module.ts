@@ -8,6 +8,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { CadastrarFuncionarioComponent } from './cadastrar-funcionario/cadastrar-funcionario.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatSelectModule } from '@angular/material/select';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
