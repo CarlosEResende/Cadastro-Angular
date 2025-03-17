@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  mat-card {
+    width: 600px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  mat-table {
+    width: 100%;
+  }
+
+  .custom-button {
+    background-color: white;  
+    border-radius: 50%;       
+    width: 40px;              
+    height: 40px;
+  }
+  
+  .custom-button mat-icon {
+    color: darkblue !important;
+  }
+  
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  mat-header-cell, mat-cell {
+    padding: 12px;
+  }
+  
+  mat-toolbar[color="primary"] {
+    background-color: blue !important;
+    color: white !important;
+  }
+  
+  mat-toolbar[color="accent"] {
+    background-color: darkblue !important;
+    color: white !important;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  

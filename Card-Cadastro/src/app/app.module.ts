@@ -6,7 +6,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import { CadastrarFuncionarioComponent } from './cadastrar-funcionario/cadastrar-funcionario.component';
+import { FuncionarioModule } from './funcionario/funcionario.module'; 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
 
@@ -14,7 +14,7 @@ import { MatSelectModule } from '@angular/material/select';
 @NgModule({
   declarations: [
     AppComponent,
-    CadastrarFuncionarioComponent
+  
   ],
   imports: [
     BrowserModule,
@@ -24,7 +24,8 @@ import { MatSelectModule } from '@angular/material/select';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatSelectModule
+    MatSelectModule,
+    FuncionarioModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
