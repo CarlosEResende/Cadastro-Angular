@@ -1,50 +1,63 @@
 .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-  }
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; 
+}
 
-  mat-card {
-    width: 400px;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  .full-width {
-    width: 100%;
-  }
-  
-  .buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 0 20px;
-  }
-  
-  .buttonblue {
-    background-color: blue !important;
-    color: white !important;
-  }
-  
-  .buttonred {
-    background-color: red !important;
-    color: white !important;
-  }
-  
-  mat-toolbar[color="primary"] {
-    background-color: blue !important;
-    color: white !important;
-  }
-  
-  mat-toolbar[color="accent"] {
-    background-color: darkblue !important;
-    color: white !important;
-    width: 100%;
-    margin: 0;
-    padding: 16px;
-    box-sizing: border-box;
-  }
-  
-  mat-card-content {
-    padding: 30px;
-  }
+mat-card {
+  width: 500px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.buttonblue {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.buttonred {
+  background-color: red !important;
+  color: white !important;
+}
+
+mat-toolbar[color="primary"] {
+  background-color: blue !important;
+  color: white !important;
+}
+
+mat-toolbar[color="accent"] {
+  background-color: darkblue !important;
+  color: white !important;
+  width: 100%;
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+mat-card-content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.Benefícios{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+mat-radio-group,
+.checkbox-group {
+  width: 100%;
+}

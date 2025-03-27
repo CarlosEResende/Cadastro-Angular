@@ -29,6 +29,16 @@
             <th mat-header-cell *matHeaderCellDef> Departamento </th>
             <td mat-cell *matCellDef="let funcionario"> {{ funcionario.departamento }} </td>
           </ng-container>
+
+          <ng-container matColumnDef="turno">
+            <th mat-header-cell *matHeaderCellDef> Turno </th>
+            <td mat-cell *matCellDef="let funcionario"> {{ funcionario.turno }} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="beneficios">
+            <th mat-header-cell *matHeaderCellDef> Benefícios </th>
+            <td mat-cell *matCellDef="let funcionario"> {{ funcionario.beneficios }} </td>
+          </ng-container>
   
           <thead>
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
