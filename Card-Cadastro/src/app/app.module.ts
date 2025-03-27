@@ -9,6 +9,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { FuncionarioModule } from './funcionario/funcionario.module'; 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
+import { MatIconModule } from '@angular/material/icon';
+
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { MatSelectModule } from '@angular/material/select';
     MatButtonModule,
     MatToolbarModule,
     MatSelectModule,
-    FuncionarioModule 
+    FuncionarioModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

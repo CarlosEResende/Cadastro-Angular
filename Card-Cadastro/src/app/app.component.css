@@ -1,5 +1,24 @@
+
+
 mat-toolbar[color="primary"] {
-    background-color: blue !important;
-    color: white !important;
-  }
+  background-color: blue !important;
+  color: white !important;
+}
+
+.toolbar-title {
+  font-weight: bold; 
+  font-size: 20px;
+}
+
+.button {
+
+ 
+  font-weight: bold; 
+  background-color: blue !important;
+  color: white !important;
+  margin-left: 100px; 
+  margin-right: 0px; 
+  font-size: 15px;
   
+
+}

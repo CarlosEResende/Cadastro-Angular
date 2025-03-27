@@ -1,2 +1,22 @@
+<mat-toolbar color="primary">
+    <span class="toolbar-title">App Gerenciar-Funcionarios</span>
+    
+    <button class="button" mat-raised-button color="primary" (click)="telaInicial()">
+      <span>Tela Inicial</span>  
+      <mat-icon  fontIcon="home">a</mat-icon>
+    </button>
+    
+  
+    <button class="button" mat-raised-button color="primary" (click)="navegarCadastro()">
+      <span>Cadastrar Novo-Funcionário</span>  
+      <mat-icon fontIcon="add_circle"></mat-icon>
+    </button>
+
+    <button class="button" mat-raised-button color="primary" (click)="navegarLista()">
+        <span>Listas de Funcionário</span>  
+        <mat-icon fontIcon="assignment"></mat-icon>
+      </button>
+  </mat-toolbar>
+  
 
 <router-outlet></router-outlet>

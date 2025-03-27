@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,17 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Card-Cadastro';
+  title = 'aula-angular-3';
+
+  constructor(private router: Router) {}
+  
+  telaInicial() {
+    this.router.navigate(['/']); 
+  }
+  navegarCadastro() {
+    this.router.navigate(['/Cadastrar']);
+  }
+  navegarLista() {
+    this.router.navigate(['/Listar']);
+  }
 }
